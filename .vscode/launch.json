@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'ww2_map_game'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=ww2_map_game",
+                    "--package=ww2_map_game"
+                ],
+                "filter": {
+                    "name": "ww2_map_game",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
